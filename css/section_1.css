@@ -1,0 +1,23 @@
+.sec1 {
+  box-sizing: border-box;
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  }
+
+  .sec1__text {
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 5px;
+  }
+
+#issMap {
+box-sizing: border-box;
+height: 100%;
+/* width: 100%; */
+border-radius: 20px;
+ 
+}
+
+
+

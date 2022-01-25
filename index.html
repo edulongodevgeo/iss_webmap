@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="css/header.css" rel="stylesheet" type="text/css" />
+	<link href="css/section_1.css" rel="stylesheet" type="text/css" />
+	<link href="css/section_2.css" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href="css/footer.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=VT323&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet"href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""></script>
+</head>
+
+<body>
+
+<div class="container-pai">
+
+		<header class="header">
+			
+      <a href="#" class="header__text">ISS TRACKER</a>
+		  <a href="#" class="header__text">SOBRE</a>
+      <a href="#" class="header__text">+ INFORMAÇÕES</a>
+
+		</header>
+
+		<section class="sec1">
+
+      <div class="sec1__text">
+        <h1>Localização da ISS (now)</h1>
+        <p>Latitude: <span id="lat"></span>°</p>
+        <p>Longitude: <span id="lon"></span>°</p>
+      </div>
+      
+      <div id="issMap"></div>
+     
+    </section>
+
+		<section class="sec2">
+      <iframe width="100%" height="100%" src="https://ustream.tv/embed/17074538?autoplay=1" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;" ></iframe>
+    </section>
+
+		<main class="main">
+       
+    </main>
+
+		<footer class="footer">
+      <p class="footer__text"><a href="https://github.com/edulongodevgeo" class="footer__text">Desenvolvido por @EduLongo</a>
+      </p>
+
+    </footer>
+
+	</div>
+
+  <script src="js/iss.js"></script>
+
+</body>
+
+</html>
